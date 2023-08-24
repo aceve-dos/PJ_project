@@ -1,7 +1,68 @@
 /* Inicio - Login */
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
-background-color: black;
+    background-image: url(../images/carpinteria_1.png);
+    display: flex;
+    justify-content: center;
 }
 form{
+    background-color: rgba(22, 73, 190, 0.8);
+    display: flex;
+    margin:auto;
+    width: 80%;
+    padding:20px;
+    margin-top: 50%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    box-shadow: 5px 4px 4px 0px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 5px 4px 4px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: 5px 4px 4px 0px rgba(0,0,0,0.29);
 
+}
+h1{
+    margin-bottom: 10px;
+    color: #EFECEC;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid :ccc;
+    border-radius: 30px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #E60707 ;
+    color: #EFECEC;
+    cursor: pointer;
+}
+.red-color{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #E60707 ;
+    color: #EFECEC;
+    border: solid 0px;
+    border-radius: 30%;
+    cursor: pointer;
+}
+.black-color{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #000000 ;
+    color: #EFECEC;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+}
+button a{
+    color: white;
+    text-decoration: none;
 }
