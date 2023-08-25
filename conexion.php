@@ -15,7 +15,7 @@ $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
 //informa si no se pudo conectar a la base de datos
 
-if ($conn){
-    die("No conexion: " .mysqli_connect_errno());
+if (!$conn){
+    die("No conexion: " .mysqli_connect_error());
 }
 ?>

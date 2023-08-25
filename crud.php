@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row">
         <div class="columna">
-            <h2 class "text">CRUD</h2>
+            <h2 class="text">CRUD</h2>
             <table class="table">
                 <thead>
                     <tr>
