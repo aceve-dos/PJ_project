@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 12-07-2023 a las 15:46:09
+-- Tiempo de generación: 30-08-2023 a las 17:50:53
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -85,8 +85,16 @@ CREATE TABLE `stock` (
 
 CREATE TABLE `usuario` (
   `id_usuario` int(10) NOT NULL,
+  `email` varchar(15) NOT NULL,
   `contraseña` varchar(30) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `usuario`
+--
+
+INSERT INTO `usuario` (`id_usuario`, `email`, `contraseña`) VALUES
+(1, 'carlos@gg.com', '1234');
 
 --
 -- Índices para tablas volcadas

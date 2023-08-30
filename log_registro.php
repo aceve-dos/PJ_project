@@ -28,7 +28,7 @@ if(isset($_POST["ingreso"])){
 }
 
 //R de usuario
-if (isset($_POST['ingreso'])){
+if (isset($_POST['registro'])){
     $sql_grabar = "INSERT INTO usuario (id_usuario, email, contraseña) values (NULL, '$email', '$contraseña')";
 
     if(mysqli_query($conn, $sql_grabar)){
