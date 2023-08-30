@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de inventario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Inventario</h1>
+        <nav>
+            <div class="user-info">
+                <h2>Usuario</h2>
+                <div class="logout">
+                    <h3>Cerrar Sesión</h3>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="add-item" id="addInmueble">
+            <h2>Agregar Bien Inmueble</h2>
+        </div>
+
+        <div class="add-item" id="addInmueble">
+            <h2>Agregar Bien Mueble</h2>
+        </div>
+    </main>
+    <main>
+        <div class="options">
+            <h2>Elija una Opción</h2>
+            <ul>
+                <li>Buscar</li>
+            </ul>
+        </div>
+        <div class="data-table">
+            <h2>Datos del Inventario</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cod Artículo</th>
+                        <th>Cod Inventario</th>
+                        <th>Bienes</th>
+                        <th>Fecha de Emisión PR</th>
+                        <th>Fecha de Entrada</th>
+                        <th>Fecha de Salida</th>
+                        <th>Stock</th>
+                        <th>Área</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="area-options">
+            <h3>Área</h3>
+            <details>
+                <summary>Herrería</summary>
+                <!-- Contenido de la opción "Herrería" aquí -->
+            </details>
+            <details>
+                <summary>Carpintería</summary>
+                <!-- Contenido de la opción "Carpintería" aquí -->
+            </details>
+            <details>
+                <summary>Pinturería</summary>
+                <!-- Contenido de la opción "Pinturería" aquí -->
+            </details>
+            <details>
+                <summary>Suministro</summary>
+                <!-- Contenido de la opción "Suministro" aquí -->
+            </details>
+        </div>
+    </main>
+    <script src="inventario.js"></script>
+</body>
+</html>

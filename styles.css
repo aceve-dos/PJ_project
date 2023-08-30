@@ -1,0 +1,188 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: #444;
+}
+
+.user-info {
+    margin-right: 20px;
+    text-align: right;
+}
+
+.logout {
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.options {
+    text-align: center;
+}
+
+.options h2 {
+    font-size: 24px;
+}
+
+.options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.options li {
+    margin: 10px 0;
+    cursor: pointer;
+    color: #0066cc;
+}
+
+.options li:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos generales de la tabla */
+.data-table {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.data-table h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Resalta los encabezados en forma de cuadrado */
+th {
+    background-color: #0066cc;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Estilo para las celdas de datos específicas */
+td:nth-child(1),
+td:nth-child(2),
+td:nth-child(3),
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(6),
+td:nth-child(7),
+td:nth-child(8),
+td:nth-child(9) {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.data-table {
+    /* ... Otros estilos ... */
+    display: flex;
+    flex-direction: column;
+}
+
+.area-options {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.add-item:first-child {
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.add-item:nth-child(2) h2 {
+    text-align: right;
+    position: relative;
+}
+
+.add-item:nth-child(2) h2::before {
+    content: "Agregar bien inmueble";
+    background-color: rgb(255, 145, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* Ventana 2 donde se agrega el formulario para el ingreso del bien inmueble */
+
+/* styles.css */
+
+/* ... Tus estilos anteriores ... */
+
+.entry-form {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.entry-form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.entry-form input,
+.entry-form button {
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+.entry-form .buttons {
+    margin-top: 20px;
+}
+
+
+
+
+
+

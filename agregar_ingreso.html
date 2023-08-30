@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de Bien Inmueble</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Ingreso de bien inmueble</h1>
+        <nav>
+            <div class="user-info">
+                <h2>Usuario</h2>
+                <div class="logout">
+                    <h3>Cerrar Sesión</h3>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="options">
+            <h2>Elegir una Opción</h2>
+            <ul>
+                <li>Buscar</li>
+                <li><a href="agregar_bien_inmueble.html">Agregar Bien Inmueble</a></li>
+                <li><a href="agregar_ingreso.html">Agregar Ingreso de Bien Inmueble</a></li>
+            </ul>
+        </div>
+
+        <div class="entry-form">
+            <h2>Agregar Ingreso de Bien Inmueble</h2>
+                <form>
+                    <label for="cod_articulo">Código de Artículo:</label>
+                    <input type="text" id="cod_articulo" name="cod_articulo" required>
+                
+                    <label for="cod_inventario">Código de Inventario:</label>
+                    <input type="text" id="cod_inventario" name="cod_inventario" required>
+                
+                    <label for="nombre_articulo">Nombre del Artículo:</label>
+                    <input type="text" id="nombre_articulo" name="nombre_articulo" required>
+                
+                    <label for="cod_PR">Código PR:</label>
+                    <input type="text" id="cod_PR" name="cod_PR" required>
+                
+                    <label for="fecha_emision_pr">Fecha de Emisión PR:</label>
+                    <input type="date" id="fecha_emision_pr" name="fecha_emision_pr" required>
+                
+                    <label for="fecha_entrada">Fecha de Entrada:</label>
+                    <input type="date" id="fecha_entrada" name="fecha_entrada" required>
+                
+                    <label for="fecha_salida">Fecha de Salida:</label>
+                    <input type="date" id="fecha_salida" name="fecha_salida" required>
+                
+                    <div class="buttons">
+                        <button type="submit">Aceptar</button>
+                        <button type="button">Cancelar</button>
+                    </div>
+                </form>
+        </div>
+    </main>
+</body>
+</html>
